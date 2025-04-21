@@ -24,7 +24,7 @@ export default function AboutSection() {
             </CardDescription>
           </CardHeader>
           <CardContent className="">
-            <p className="text-lg md:text-xl mb-6 text-neutral-200">
+            <p className="text-lg md:text-lg mb-6 text-neutral text-justify-200">
               <span className="font-bold">BLISS CAFÉ</span>, where passion for
               coffee meets a cozy ambiance. Established with a love for the rich
               aroma and flavors of freshly brewed coffee, we take pride in
@@ -33,7 +33,7 @@ export default function AboutSection() {
               seeking a moment of respite, accompanied by the perfect cup of
               coffee.
             </p>
-            <p className="text-base md:text-base text-neutral-200  mx-auto">
+            <p className="text-base md:text-base text-neutral-200 text-justify  mx-auto">
               At Bliss Café, we believe in creating moments of joy with every
               sip. Our carefully sourced beans, cozy ambiance, and friendly
               staff make us more than just a coffee shop—we’re a place where
