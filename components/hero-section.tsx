@@ -15,7 +15,7 @@ export default function HeroSection() {
         <div className="h-320 absolute left-0 top-0 w-60 -rotate-45 rounded-full bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.06)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)] [translate:5%_-50%]" />
         <div className="h-320 -translate-y-87.5 absolute left-0 top-0 w-60 -rotate-45 bg-[radial-gradient(50%_50%_at_50%_50%,hsla(0,0%,85%,.04)_0,hsla(0,0%,45%,.02)_80%,transparent_100%)]" />
       </div>
-      <section>
+      <section id="hero">
         <div className="relative pt-16 md:pt-24">
           <AnimatedGroup
             variants={{
@@ -47,7 +47,7 @@ export default function HeroSection() {
             <></>
           </AnimatedGroup>
           <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"></div>
-          <div className="mx-auto max-w-5xl px-4">
+          <div className="mx-auto max-w-6xl px-4">
             <div className="flex flex-col lg:flex-row items-center justify-center gap-4">
               <div className="lg:w-1/2 flex flex-col justify-center items-left min-h-[400px]">
                 <TextEffect
@@ -69,12 +69,12 @@ export default function HeroSection() {
                   Sip. Smile. Repeat.
                 </TextEffect>
               </div>
-              <div className="lg:w-1/2 flex justify-center">
+              <div className="lg:w-1/2 flex justify-end">
                 <Image
                   src="/source/coffeecup-1.png"
                   alt="coffeecup"
-                  width={400}
-                  height={400}
+                  width={380}
+                  height={380}
                   className="animate-rotate"
                   style={{ display: "block" }}
                 />
