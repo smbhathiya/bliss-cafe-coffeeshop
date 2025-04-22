@@ -64,7 +64,7 @@ export default function HeroSection() {
                   speedSegment={0.3}
                   delay={0.5}
                   as="p"
-                  className="mt-2 max-w-sm text-primary font-bold text-balance text-center md:text-left lg:text-center text-xl md:text-2xl mx-2"
+                  className="mt-2 text-primary font-bold text-balance text-center lg:text-left text-xl md:text-2xl"
                 >
                   Sip. Smile. Repeat.
                 </TextEffect>
