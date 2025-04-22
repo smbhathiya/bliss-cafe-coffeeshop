@@ -41,7 +41,7 @@ export default function MenuHighlightsSection() {
           {menuItems.map((item, index) => (
             <Card
               key={index}
-              className="bg-card backdrop-blur-sm transition-transform duration-300 hover:scale-110 border-0"
+              className="bg-background/50 backdrop-blur-sm transition-transform duration-300 hover:scale-110 "
             >
               <CardHeader>
                 <Image
