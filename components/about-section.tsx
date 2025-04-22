@@ -10,10 +10,10 @@ import {
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-16 md:py-24 relative bg-cover bg-center">
+    <section id="about" className="py-16 md:py-24  relative bg-cover bg-center">
       <div className="absolute inset-0 " />
       <div className="mx-auto max-w-5xl px-4 relative z-10">
-        <Card className="bg-backgroud backdrop-blur-sm  px-10 py-10">
+        <Card className="bg-backgroud backdrop-blur-sm  md:px-10 md:py-10 p-5">
           <CardHeader className="">
             <CardTitle className="text-3xl md:text-4xl ">
               Welcome to,{" "}
@@ -24,7 +24,7 @@ export default function AboutSection() {
             </CardDescription>
           </CardHeader>
           <CardContent className="">
-            <p className="text-lg md:text-lg mb-6 text-neutral text-justify-200">
+            <p className="text-base md:text-lg mb-6 text-neutral text-justify text-neutral-200">
               <span className="font-bold">BLISS CAFÉ</span>, where passion for
               coffee meets a cozy ambiance. Established with a love for the rich
               aroma and flavors of freshly brewed coffee, we take pride in
@@ -33,7 +33,7 @@ export default function AboutSection() {
               seeking a moment of respite, accompanied by the perfect cup of
               coffee.
             </p>
-            <p className="text-base md:text-base text-neutral-200 text-justify  mx-auto">
+            <p className="text-base md:text-base text-neutral-300 text-justify  mx-auto">
               At Bliss Café, we believe in creating moments of joy with every
               sip. Our carefully sourced beans, cozy ambiance, and friendly
               staff make us more than just a coffee shop—we’re a place where

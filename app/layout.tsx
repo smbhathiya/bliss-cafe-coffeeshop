@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import BackToTop from "@/components/back-to-top";
+import ClientLayout from "@/components/client-layout";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -35,8 +36,10 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {children}
-          <BackToTop />
+          <ClientLayout>
+            {children}
+            <BackToTop />
+          </ClientLayout>
         </ThemeProvider>
       </body>
     </html>
