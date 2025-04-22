@@ -5,7 +5,6 @@ import {
   CardHeader,
   CardTitle,
   CardDescription,
-  CardContent,
 } from "@/components/ui/card";
 import Image from "next/image";
 
@@ -15,19 +14,19 @@ export default function MenuHighlightsSection() {
       title: "Signature Latte",
       description:
         "Our creamy latte, crafted with house-roasted espresso and velvety steamed milk, topped with delicate foam art.",
-      image: "/source/1.jpg",
+      image: "/source/SignatureLatte.jpg",
     },
     {
       title: "Artisan Croissant",
       description:
         "Flaky, buttery croissants baked fresh daily, perfect with a cup of our signature coffee.",
-      image: "/source/1.jpg",
+      image: "/source/ArtisanCroissant.jpg",
     },
     {
       title: "Seasonal Cold Brew",
       description:
         "Smooth, refreshing cold brew infused with seasonal flavors, served over ice for a perfect pick-me-up.",
-      image: "/source/1.jpg",
+      image: "/source/SeasonalColdBrew.jpg",
     },
   ];
 
@@ -42,7 +41,7 @@ export default function MenuHighlightsSection() {
           {menuItems.map((item, index) => (
             <Card
               key={index}
-              className="bg-card backdrop-blur-sm transition-transform duration-300 hover:scale-105"
+              className="bg-card backdrop-blur-sm transition-transform duration-300 hover:scale-110 border-0"
             >
               <CardHeader>
                 <Image
