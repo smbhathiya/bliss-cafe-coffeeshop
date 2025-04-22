@@ -71,7 +71,7 @@ export default function HeroSection() {
               </div>
               <div className="lg:w-1/2 flex justify-end">
                 <Image
-                  src="/source/coffeecup-1.png"
+                  src="/source/coffeecup-1.webp"
                   alt="coffeecup"
                   width={380}
                   height={380}
