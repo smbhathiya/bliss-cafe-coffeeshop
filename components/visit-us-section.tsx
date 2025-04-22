@@ -12,57 +12,53 @@ import Image from "next/image";
 
 export default function VisitUsSection() {
   return (
-    <section>
-      <div className="absolute inset-0 " />
+    <section className="relative py-12">
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-neutral-900/10" />
       <div className="mx-auto max-w-5xl px-4 relative z-10">
-        <h2 className="text-4xl md:text-5xl text-neutral-100 text-center mb-12">
-          Visit Us
-        </h2>
-        <Card className="bg-neutral-900 backdrop-blur-sm py-12 transition-transform duration-300 hover:scale-[1.02]">
-          <CardHeader className="text-center">
-            <CardTitle className="text-4xl md:text-5xl text-neutral-100">
-              Find Bliss Café
+        <Card className="bg-background/95 backdrop-blur-md py-12 px-6 rounded-xl shadow-lg transition-transform duration-300 hover:scale-[1.02]">
+          <CardHeader className="text-left">
+            <CardTitle className="text-3xl md:text-4xl font-bold text-primary tracking-tight">
+              Visit Us
             </CardTitle>
-            <CardDescription className="text-lg md:text-xl text-neutral-300">
+            <CardDescription className="text-lg md:text-xl text-neutral-400 ">
               Join us for a cup of coffee in our cozy haven
             </CardDescription>
           </CardHeader>
-          <CardContent className="flex flex-col md:flex-row gap-8">
-            <div className="md:w-1/2">
+          <CardContent className="flex flex-col md:flex-row gap-10 mt-6">
+            <div className="md:w-1/2 flex justify-center items-center ">
               <Image
-                src="/source/map-placeholder.jpg"
-                alt="Bliss Café Location"
-                width={400}
-                height={300}
-                className="w-full h-64 object-cover rounded-lg"
+                src="/source/coffeeshop.png"
+                alt="Coffee cup"
+                width={1365}
+                height={1024}
+                className="rounded-lg"
               />
             </div>
-            <div className="md:w-1/2 flex flex-col justify-center">
-              <p className="text-base md:text-lg text-neutral-200 mb-4 text-justify">
-                <span className="font-bold">Bliss Café</span> is located at the
-                heart of the city, ready to welcome you with warmth and flavor.
+            <div className="md:w-1/2 flex flex-col justify-center space-y-5">
+              <p className="text-lg md:text-xl text-neutral-200 leading-relaxed">
+                <span className="font-semibold text-primary">Bliss Café</span>{" "}
+                is nestled in the heart of the city, ready to welcome you with
+                warmth and flavor.
               </p>
-              <p className="text-base md:text-lg text-neutral-200 mb-4 text-justify">
-                <span className="font-bold">Address:</span> 123 Coffee Lane,
-                Downtown, CA 90210
-              </p>
-              <p className="text-base md:text-lg text-neutral-200 mb-4 text-justify">
-                <span className="font-bold">Hours:</span> Mon-Fri: 7 AM - 7 PM,
-                Sat-Sun: 8 AM - 6 PM
-              </p>
-              <p className="text-base md:text-lg text-neutral-200 mb-6 text-justify">
-                <span className="font-bold">Contact:</span> (555) 123-4567 |
-                info@blisscafe.com
-              </p>
+              <div className="space-y-3">
+                <p className="text-base md:text-lg text-neutral-200 flex items-center gap-2">
+                  <span className="font-semibold text-primary">Address:</span>
+                  123 Coffee Lane, Downtown, CA 90210
+                </p>
+                <p className="text-base md:text-lg text-neutral-200 flex items-center gap-2">
+                  <span className="font-semibold text-primary">Hours:</span>
+                  Mon-Fri: 7 AM - 7 PM, Sat-Sun: 8 AM - 6 PM
+                </p>
+                <p className="text-base md:text-lg text-neutral-200 flex items-center gap-2">
+                  <span className="font-semibold text-primary">Contact:</span>
+                  (555) 123-4567 | info@blisscafe.com
+                </p>
+              </div>
               <Button
-                className="bg-amber-800 text-neutral-100 hover:bg-amber-700 transition-colors"
+                className="  font-semibold py-3 px-6 rounded-lg mt-4 w-fit"
                 asChild
               >
-                <a
-                  href="https://maps.google.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="#" target="_blank" rel="noopener noreferrer">
                   Get Directions
                 </a>
               </Button>
