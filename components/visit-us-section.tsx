@@ -12,7 +12,7 @@ import Image from "next/image";
 
 export default function VisitUsSection() {
   return (
-    <section className="relative py-12">
+    <section id="visitus" className="relative py-12">
       <div className="absolute inset-0 " />
       <div className="mx-auto max-w-5xl px-4 relative z-10">
         <Card className="bg-background/95 backdrop-blur-md py-12 px-6 rounded-xl shadow-lg transition-transform duration-300 hover:scale-[1.02]">

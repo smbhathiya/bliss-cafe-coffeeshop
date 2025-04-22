@@ -15,16 +15,18 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Café Info */}
             <div>
-              <h3 className="text-2xl text-neutral-100 mb-4">Bliss Café</h3>
-              <p className="text-base text-neutral-200 text-justify">
+              <h3 className="text-2xl  mb-4 text-primary font-bold">
+                Bliss Café
+              </h3>
+              <p className="text-base text-neutral-200 ">
                 A cozy haven for coffee lovers, where passion for coffee meets a
                 warm ambiance. Join us for a delightful experience.
               </p>
             </div>
             {/* Hours */}
             <div>
-              <h3 className="text-2xl text-neutral-100 mb-4">Hours</h3>
-              <p className="text-base text-neutral-200 text-justify">
+              <h3 className="text-2xl  mb-4 text-primary font-bold">Hours</h3>
+              <p className="text-base text-neutral-200 ">
                 <span className="font-bold">Mon-Fri:</span> 7 AM - 7 PM
                 <br />
                 <span className="font-bold">Sat-Sun:</span> 8 AM - 6 PM
@@ -32,15 +34,15 @@ export default function Footer() {
             </div>
             {/* Connect */}
             <div>
-              <h3 className="text-2xl text-neutral-100 mb-4">
+              <h3 className="text-2xl  mb-4 text-primary font-bold">
                 Connect With Us
               </h3>
-              <p className="text-base text-neutral-200 mb-4 text-justify">
+              <p className="text-base text-neutral-200 mb-4 ">
                 Follow us for updates and coffee inspiration.
               </p>
               <div className="flex gap-4">
                 <a
-                  href="https://instagram.com"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-neutral-200 hover:text-amber-800 transition-colors"
@@ -48,18 +50,18 @@ export default function Footer() {
                   <IconBrandInstagram size={24} />
                 </a>
                 <a
-                  href="https://twitter.com"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-neutral-200 hover:text-amber-800 transition-colors"
+                  className="text-neutral-200 hover:text-primary transition-colors"
                 >
                   <IconBrandTwitter size={24} />
                 </a>
                 <a
-                  href="https://facebook.com"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-neutral-200 hover:text-amber-800 transition-colors"
+                  className="text-neutral-200 hover:text-primary transition-colors"
                 >
                   <IconBrandFacebook size={24} />
                 </a>

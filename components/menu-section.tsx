@@ -31,7 +31,7 @@ export default function MenuHighlightsSection() {
   ];
 
   return (
-    <section className="py-16 md:py-24 relative bg-cover bg-center">
+    <section id="menu" className="py-16 md:py-24 relative bg-cover bg-center">
       <div className="absolute inset-0 " />
       <div className="mx-auto max-w-5xl px-4 relative z-10">
         <h2 className="text-4xl md:text-5xl text-white text-center mb-12">

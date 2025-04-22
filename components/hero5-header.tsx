@@ -5,13 +5,12 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import React from "react";
 import { cn } from "@/lib/utils";
-import { ModeToggle } from "./mode-toggle";
 
 const menuItems = [
-  { name: "Home", href: "#" },
-  { name: "About ", href: "#" },
-  { name: "Contact ", href: "#" },
-  { name: "Pricing", href: "#" },
+  { name: "Home", href: "#hero" },
+  { name: "About ", href: "#about" },
+  { name: "Menu", href: "#menu" },
+  { name: "Visit us ", href: "#visitus" },
 ];
 
 export const HeroHeader = () => {
@@ -99,7 +98,6 @@ export const HeroHeader = () => {
                 <Link href="#">
                   <Button>Contact us</Button>
                 </Link>
-                <ModeToggle />
               </div>
             </div>
           </div>

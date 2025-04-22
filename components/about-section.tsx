@@ -10,7 +10,7 @@ import {
 
 export default function AboutSection() {
   return (
-    <section className="py-16 md:py-24 relative bg-cover bg-center">
+    <section id="about" className="py-16 md:py-24 relative bg-cover bg-center">
       <div className="absolute inset-0 " />
       <div className="mx-auto max-w-5xl px-4 relative z-10">
         <Card className="bg-backgroud backdrop-blur-sm  px-10 py-10">
