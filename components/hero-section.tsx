@@ -47,7 +47,7 @@ export default function HeroSection() {
             <></>
           </AnimatedGroup>
           <div className="absolute inset-0 -z-10 size-full [background:radial-gradient(125%_125%_at_50%_100%,transparent_0%,var(--color-background)_75%)]"></div>
-          <div className="mx-auto max-w-5xl px-4">
+          <div className="mx-auto max-w-6xl px-4">
             <div className="flex flex-col lg:flex-row items-center justify-center gap-4">
               <div className="lg:w-1/2 flex flex-col justify-center items-left min-h-[400px]">
                 <TextEffect
@@ -69,12 +69,12 @@ export default function HeroSection() {
                   Sip. Smile. Repeat.
                 </TextEffect>
               </div>
-              <div className="lg:w-1/2 flex justify-center">
+              <div className="lg:w-1/2 flex justify-end">
                 <Image
                   src="/source/coffeecup-1.png"
                   alt="coffeecup"
-                  width={400}
-                  height={400}
+                  width={380}
+                  height={380}
                   className="animate-rotate"
                   style={{ display: "block" }}
                 />
