@@ -45,7 +45,7 @@ export default function Footer() {
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-neutral-200 hover:text-amber-800 transition-colors"
+                  className="text-neutral-200 hover:text-primary  transition-colors"
                 >
                   <IconBrandInstagram size={24} />
                 </a>
