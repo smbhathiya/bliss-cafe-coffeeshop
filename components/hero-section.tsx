@@ -54,7 +54,7 @@ export default function HeroSection() {
                   preset="fade-in-blur"
                   speedSegment={0.3}
                   as="h1"
-                  className="text-balance text-left font-bold text-7xl md:text-8xl xl:text-[6rem]"
+                  className="text-balance text-center md:text-left font-bold text-7xl md:text-8xl xl:text-[6rem]"
                 >
                   Bliss Café
                 </TextEffect>
@@ -64,7 +64,7 @@ export default function HeroSection() {
                   speedSegment={0.3}
                   delay={0.5}
                   as="p"
-                  className="mt-2 max-w-sm text-primary font-bold text-balance text-left text-xl md:text-2xl mx-2"
+                  className="mt-2 max-w-sm text-primary font-bold text-balance text-center md:text-left lg:text-center text-xl md:text-2xl mx-2"
                 >
                   Sip. Smile. Repeat.
                 </TextEffect>
@@ -75,7 +75,7 @@ export default function HeroSection() {
                   alt="coffeecup"
                   width={380}
                   height={380}
-                  className="animate-rotate"
+                  className="animate-rotate md:size-full size-80 max-w-[380px] max-h-[380px] object-contain"
                   style={{ display: "block" }}
                 />
               </div>

@@ -35,23 +35,24 @@ export default function VisitUsSection() {
               />
             </div>
             <div className="md:w-1/2 flex flex-col justify-center space-y-5">
-              <p className="text-lg md:text-xl text-neutral-200 leading-relaxed">
+              <p className="text-lg md:text-xl text-neutral-200 text-justify">
                 <span className="font-semibold text-primary">Bliss Café</span>{" "}
                 is nestled in the heart of the city, ready to welcome you with
                 warmth and flavor.
               </p>
               <div className="space-y-3">
-                <p className="text-base md:text-lg text-neutral-200 flex items-center gap-2">
-                  <span className="font-semibold text-primary">Address:</span>
-                  123 Coffee Lane, Downtown, CA 90210
+                <p className="text-base md:text-lg text-neutral-200 flex flex-col gap-0">
+                  <span className="font-semibold text-primary">Address</span>
+                  <span>123 Coffee Lane, Downtown, CA 90210</span>
                 </p>
-                <p className="text-base md:text-lg text-neutral-200 flex items-center gap-2">
-                  <span className="font-semibold text-primary">Hours:</span>
-                  Mon-Fri: 7 AM - 7 PM, Sat-Sun: 8 AM - 6 PM
+
+                <p className="text-base md:text-lg text-neutral-200 flex flex-col gap-0">
+                  <span className="font-semibold text-primary">Hours</span>
+                  <span>Mon-Fri: 7 AM - 7 PM, Sat-Sun: 8 AM - 6 PM</span>
                 </p>
-                <p className="text-base md:text-lg text-neutral-200 flex items-center gap-2">
-                  <span className="font-semibold text-primary">Contact:</span>
-                  (555) 123-4567 | info@blisscafe.com
+                <p className="text-base md:text-lg text-neutral-200 flex flex-col  gap-0">
+                  <span className="font-semibold text-primary">Contact</span>
+                  <span>(555) 123-4567 | info@blisscafe.com</span>
                 </p>
               </div>
               <Button
