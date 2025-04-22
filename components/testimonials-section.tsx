@@ -35,15 +35,13 @@ export default function TestimonialsSection() {
           What Our Customers Say
         </h2>
         <div className="relative overflow-hidden">
-          {/* Left gradient */}
           <div className="absolute left-0 top-0 h-full w-24 bg-gradient-to-r from-neutral-950 to-transparent z-20" />
-          {/* Right gradient */}
           <div className="absolute right-0 top-0 h-full w-24 bg-gradient-to-l from-neutral-950 to-transparent z-20" />
           <div className="flex animate-infinite-scroll gap-6 p-4">
             {[...testimonials, ...testimonials].map((testimonial, index) => (
               <Card
                 key={index}
-                className="bg-neutral-900 backdrop-blur-sm py-12 flex-shrink-0 w-[300px] transition-transform duration-300 hover:scale-105"
+                className="bg-background backdrop-blur-sm py-12 flex-shrink-0 w-[300px] transition-transform duration-300 hover:scale-105"
               >
                 <CardHeader>
                   <CardTitle className="text-2xl text-neutral-100">
@@ -55,7 +53,7 @@ export default function TestimonialsSection() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-base md:text-lg text-neutral-200 text-justify">
-                  &quot;{testimonial.quote}&quot;
+                    &quot;{testimonial.quote}&quot;
                   </p>
                 </CardContent>
               </Card>
